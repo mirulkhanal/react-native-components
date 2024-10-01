@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   container: {
     marginHorizontal: 10,
     borderRadius: 8,
-    backgroundColor: '#a6e3a1',
+    backgroundColor: '#63A375',
     paddingHorizontal: 10,
   },
   headingText: {
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     fontSize: 20,
     fontWeight: '800',
-    color: '#4c4f69',
+    color: 'white',
   },
   image: {
     height: 200,
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   description: {
     marginVertical: 10,
     fontSize: 16,
-    color: '#4c4f69',
+    color: 'white',
     fontWeight: '300',
   },
   buttonsContainer: {

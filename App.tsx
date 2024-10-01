@@ -22,6 +22,6 @@ export default App;
 
 const styles = StyleSheet.create({
   parent: {
-    backgroundColor: '#3b4252',
+    backgroundColor: '#11111b',
   },
 });

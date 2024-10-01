@@ -28,7 +28,9 @@ export default function ScrollableCardList() {
       <ScrollView horizontal contentContainerStyle={styles.container}>
         {cardData.map(card => (
           <View key={card.text} style={styles.card}>
-            <Text style={{color: 'white'}}>{card.text}</Text>
+            <Text style={{color: '#11111b', fontSize: 20, fontWeight: '900'}}>
+              {card.text}
+            </Text>
           </View>
         ))}
       </ScrollView>
@@ -64,6 +66,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 6,
     marginHorizontal: 5,
-    backgroundColor: 'black',
+    backgroundColor: '#F2EFC7',
   },
 });

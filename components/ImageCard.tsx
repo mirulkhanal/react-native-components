@@ -12,7 +12,7 @@ export default function ImageCard() {
         <Image
           style={{borderTopLeftRadius: 8, borderTopRightRadius: 8}}
           source={{
-            uri: 'https://dummyimage.com/411x16:9',
+            uri: 'https://i.ibb.co/WVGVx6s/durbar.jpg',
             height: 231,
           }}
         />
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     gap: 10,
     paddingVertical: 10,
-    backgroundColor: '#fab387',
+    backgroundColor: '#F8C0C8',
   },
   detailsTitle: {
     fontSize: 18,

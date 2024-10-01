@@ -29,7 +29,7 @@ export default function CardList() {
                 backgroundColor: `${card.color}`,
                 ...styles.card,
               }}>
-              <Text style={{color: 'white'}}>{card.text}</Text>
+              <Text style={{color: 'white', fontSize: 20}}>{card.text}</Text>
             </View>
           ))}
       </View>
